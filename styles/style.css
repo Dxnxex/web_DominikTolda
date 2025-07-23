@@ -17,7 +17,7 @@
 
     --textColorWhite: #ffffff;
     --textColorBlack: #000000;
-    --colorBackgroundWhite: #ffffff;
+    --colorBackgroundWhite: #ffb800;
     --colorBackgroundBlack: #000000;
 
 
@@ -30,10 +30,10 @@
     --colorBackgroundDark: #292929;
 */
 
-    --textColorLight: #5994db;
-    --textColorDark: #4d4d4d;
-    --colorBackgroundLight: #ffffff;
-    --colorBackgroundDark: #2e2e2e;
+    --textColorLight: #f8b81f;
+    --textColorDark: #222222;
+    --colorBackgroundLight: #222222;
+    --colorBackgroundDark: #222222;
 
 
     --fontBig: "Monaco", serif;
@@ -91,10 +91,10 @@ img {
 
 .video-background {
     position: absolute;
-    top: 0;
+    top: 125px;
     left: 0;
     width: 100vw;
-    height: 100vh;
+    height: 80vh;
     z-index: 0; /* stejný jako backgroundIndex, nižší než ostatní obsah */
     overflow: hidden;
 }
@@ -129,7 +129,7 @@ img {
 .titleIndex{
 
     width: 100%;
-    margin-top: 100vh;
+    margin-top: 70vh;
     background: var(--colorBackgroundLight);
 
     position: relative;

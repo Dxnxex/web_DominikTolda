@@ -26,9 +26,5 @@ document.addEventListener("DOMContentLoaded", function () {
 
     loadFragment('fragments/navigation.html', 'navigation');
     loadFragment('fragments/footer.html', 'footer');
-    loadFragment('fragments/sluzby.html', 'sluzby');
-    loadFragment('fragments/galerie.html', 'galerie');
-    loadFragment('fragments/kontakt.html', 'kontakt');
-    loadFragment('fragments/mapa.html', 'mapa');
 
 });

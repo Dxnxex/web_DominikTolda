@@ -22,14 +22,14 @@
 }
 
 .navigace.hide {
-    top: -100px;
+    top: -160px;
 }
 
 
 
 .navigaceText {
 
-    font-size: clamp(0.8rem, 1svw, 3vw);
+    font-size: clamp(0.8rem, 1.5svw, 3vw);
     font-family: Arial, serif;
     font-optical-sizing: auto;
     font-weight: 800;
@@ -59,14 +59,13 @@
     text-decoration: none;
     color: var(--textColorDark);
 
-    padding: 5px;
+    padding: 1px;
     position: relative;
 
-    border-bottom: var(--textColorWhite) 2px solid;
 }
 
 .navigace a:hover  {
-    color: var(--textColorLight);
+    color: var(--textColorWhite);
 }
 
 
@@ -109,13 +108,13 @@
 
 /*Ikona adresy a telefonu*/
 .imageNavigation {
-    width: 35px;
+    width: 65px;
     height: auto;
     position: relative;;
 }
 
 /*Logo firmy*/
 .imageLogo {
-    width: 60px;
+    width: 160px;
 }
 

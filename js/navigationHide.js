@@ -15,7 +15,7 @@
 
 
         //Nechat zobrazené při <#
-        if (window.scrollY <= 800) {
+        if (window.scrollY <= 500) {
             nav.classList.remove('hide');
         }
 });
