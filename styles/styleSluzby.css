@@ -1,0 +1,153 @@
+
+.sluzbyIndex {
+
+    width: 100%;
+    background: var(--colorBackgroundLight);
+
+    position: relative;
+    display: inline-block;
+
+    color: var(--textColorLight);
+}
+
+.sluzbyTitle{
+
+    font-family: Bahnschrift, serif;
+    font-size: x-large;
+    color: var(--textColorBlack);
+
+}
+
+
+
+.sluzbyIndex span{
+
+    font-family: Bahnschrift, serif;
+    color: var(--textColorBlack);
+
+}
+
+
+.sluzbyIndex img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+
+}
+
+
+
+
+#sluzbyButton {
+
+    padding: 5px;
+
+    border: white 2px solid;
+    filter: brightness(100%);
+
+
+    color: var(--textColorLight);
+    background: var(--colorBackgroundWhite);
+
+
+    width: 90%;
+    height: auto;
+
+}
+
+#sluzbyButton:hover {
+    filter: brightness(90%);
+}
+
+
+/*WRAPPER*/
+.sluzbyWrapper {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+    min-height: 60vh;
+    max-height: 60vh;
+}
+
+.sluzbyWrapper:hover {
+        background-color: rgba(0, 0, 0, 0.03);
+    }
+
+    /*IMAGE*/
+    .sluzbyWrapper:hover img {
+        opacity: 0;
+    }
+
+    /*TEXT */
+    .sluzbyWrapper strong {
+        color: var(--textColorWhite);
+
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translateX(-50%);
+
+
+        padding: 20px;
+        text-align: left;
+        width: 100%;
+
+
+    }
+
+    .sluzbyWrapper:hover strong {
+        color: var(--textColorBlack);
+        top: 0;
+
+
+    }
+
+    .sluzbyWrapper p {
+        color: var(--textColorBlack);
+
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translateX(-50%);
+
+
+        padding: 20px;
+        text-align: left;
+        width: 100%;
+
+        opacity: 0;
+    }
+
+    .sluzbyWrapper:hover p {
+        opacity: 1;
+    }
+
+
+
+
+    .sluzbyTextBig strong {
+    top: 80%;
+    }
+
+
+
+.sluzbyOther {
+
+    margin-bottom: 20px;
+    font-weight: 200;
+
+}
+
+.sluzbyOther span {
+
+    color: var(--textColorLight)
+}
+
+#sluzby {
+    scroll-margin-top: -900px;
+}
+
